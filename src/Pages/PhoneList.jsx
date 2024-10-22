@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 const PhoneList = () => {
-  
+
     /*---상태관리 변수들(값이 변화면 화면 랜더링 )------------*/
     const [personList, setPersonList] = useState([]);
     
@@ -53,15 +53,15 @@ const PhoneList = () => {
                         <table border="1">
                         <tbody>
                             <tr>
-                                <th>이름(name)</th>
+                                <th>이름 (name)</th>
                                 <td>{personVo.name}</td>
                             </tr>
                             <tr>
-                                <th>핸드폰(hp)</th>
+                                <th>핸드폰 (hp)</th>
                                 <td>{personVo.hp}</td>
                             </tr>
                             <tr>
-                                <th>회사(company)</th>
+                                <th>회사 (company)</th>
                                 <td>{personVo.company}</td>
                             </tr>
                             <tr>
