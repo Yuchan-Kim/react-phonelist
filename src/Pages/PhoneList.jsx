@@ -20,7 +20,7 @@ const PhoneList = () => {
             responseType: 'json' //수신타입
         }).then(response => {
             console.log(response.data); //수신데이타
-            setPersonList(response.data.apiData);
+            setPersonList(response.data.apiData);  
         }).catch(error => {
             console.log(error);
         });
